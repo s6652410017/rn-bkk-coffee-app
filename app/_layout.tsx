@@ -7,9 +7,8 @@ import {
 import { Stack } from "expo-router";
 import * as SplashScreen from "expo-splash-screen";
 import { useEffect } from "react";
-
-export default function RootLayout() {
-  //setFont for the page
+export default function /*  */ RootLayout() {
+  //setFont for the page/*  */
   const [fontsLoaded] = useFonts({
     Kanit_400Regular,
     Kanit_700Bold,
@@ -35,7 +34,7 @@ export default function RootLayout() {
           title: "Top 10 Bangkok Coffee",
           headerTitleStyle: {
             fontFamily: "Kanit_600SemiBold",
-            color: "#ddd7d3",
+            color: "#00ff0d",
           },
         }}
       />
@@ -46,7 +45,7 @@ export default function RootLayout() {
           headerBackButtonDisplayMode: "minimal",
           headerTitleAlign: "center",
           headerStyle: {
-            backgroundColor: "#00ffdd",
+            backgroundColor: "#05df05",
           },
         }}
       />
